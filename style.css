@@ -1,0 +1,13 @@
+navbar-custom {
+    background-color: #343a40; /* Dark background for the navbar */
+}
+.navbar-custom .nav-link {
+    color: #ffffff; /* White text */
+}
+.navbar-custom .nav-link:hover {
+    color: orange;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}

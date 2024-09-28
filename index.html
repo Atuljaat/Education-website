@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Educational Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">EduWebsite</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,13 +36,116 @@
                         </li>
                     </ul>
                 </div>
-                <form class="d-flex justify-content-center ">
-                    <button class="btn btn-outline-light me-2 butn " type="submit">Login</button>
-                    <button class="btn btn-outline-light butn" type="submit">Sign Up</button>
+                <form class="d-flex justify-content-center">
+                    <button class="btn btn-outline-light me-2 butn" type="submit">
+                        Login
+                    </button>
+                    <button class="btn btn-outline-light butn" type="submit">
+                        Sign Up
+                    </button>
                 </form>
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- This code is for desktop -->
+
+    <div class="d-none d-lg-block d-xl-block">
+        <div class="container-fluid my-2 py-2">
+            <div class="row">
+                <div class="col">
+                    <img class="w-100 image-fluid" src="media/image1.png" alt="image1" />
+                </div>
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="m-2">Welcome to this Educational site</h1>
+                    <button class="btn btn-outline-light butn" type="submit">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>  
+        <div class="container-fluid me-5">
+            <div class="row me-5 pe-5">
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="text-center">Whats our Motive ?</h1>
+                    <p class="fw-normal fs-4">Because learning should be as free as your curiosity—why put a price on wonder?</p>
+                </div>
+                <div class="col">
+                    <img class="w-100 image-fluid" src="media/image2.png" alt="image2" />
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid me-5">
+            <div class="row me-5 pe-5">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="w-100 image-fluid" src="media/image3.png" alt="image3" />
+                </div>
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="text-center">Why do we do this?</h1>
+                    <p class="fw-normal fs-4">To give every learner the tools to succeed, regardless of their background or location.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- This code is for mobile devices -->
+
+    <div class="d-block d-xxl-none d-xl-none"> 
+        <div class="container-fluid my-2 py-2">
+            <div class="row">
+                <div class="col">
+                    <img class="w-100 image-fluid" src="media/image1.png" alt="image1" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="m-2">Welcome to this Educational site</h1>
+                    <button class="btn btn-outline-light butn m-2" type="submit">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>  
+        <div class="container-fluid me-5">
+            <div class="row me-5 pe-5">
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="text-center me-2">Whats our Motive ?</h1>
+                    <img class="w-100 image-fluid" src="media/image2.png" alt="image2" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="fw-normal p-3 fs-6 text-center">Because learning should be as free as your curiosity—why put a price on wonder?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid me-5">
+            <div class="row me-5 pe-5">
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column text-center align-items-center justify-content-center">
+                    <h1 class="text-center me-2">Why do we do this?</h1>
+                    <img class="w-100 image-fluid" src="media/image3.png" alt="image3" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="fw-normal fs-6 text-center p-3">To give every learner the tools to succeed, regardless of their background or location.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

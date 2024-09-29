@@ -18,3 +18,10 @@ navbar-custom {
     background-color: orange;
     color: black;
 }
+.same-btn a {
+    text-decoration: none;
+    color: white;
+}
+.same-btn :hover{
+    color: black;
+}

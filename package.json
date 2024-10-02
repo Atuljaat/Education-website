@@ -1,0 +1,15 @@
+{
+  "name": "education-website",
+  "version": "1.0.0",
+  "description": "This was a project i try to build to learn about Bootstrap library",
+  "main": "authenticate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.14.0"
+  }
+}
